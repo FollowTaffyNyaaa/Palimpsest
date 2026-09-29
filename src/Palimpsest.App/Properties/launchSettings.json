@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Palimpsest.App (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Palimpsest.App (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

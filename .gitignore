@@ -1,0 +1,161 @@
+# Palimpsest - Windows
+# Mixed .NET / WinUI + native CMake project
+
+# ------------------------------------------------------------
+# Build output
+# ------------------------------------------------------------
+[Bb]in/
+[Oo]bj/
+[Bb]uild/
+build-*/
+out/
+artifacts/
+publish/
+Publish/
+Release/
+Debug/
+x64/
+x86/
+
+# CMake / native generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+compile_commands.json
+.ninja_deps
+.ninja_log
+build.ninja
+rules.ninja
+
+# Native compiler / linker output
+*.obj
+*.o
+*.pch
+*.pdb
+*.ilk
+*.iobj
+*.ipdb
+*.tlog
+*.lastbuildstate
+*.VC.db
+*.VC.opendb
+
+# ------------------------------------------------------------
+# Generated test / translation / PDF output
+# ------------------------------------------------------------
+test_output/
+TestResults/
+coverage/
+coverage.*/
+*.coverage
+*.coveragexml
+
+# Palimpsest temporary HTML / browser profiles
+_palimpsest_*.html
+*_browser_profile/
+**/_palimpsest_reflow_browser_profile/
+
+# Generated export / temporary documents
+*.tmp
+*.temp
+*.bak
+*.old
+*.log
+*.trace
+
+# ------------------------------------------------------------
+# IDE / editor
+# ------------------------------------------------------------
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.code-workspace
+
+# JetBrains
+_ReSharper*/
+*.DotSettings.user
+
+# ------------------------------------------------------------
+# NuGet / package caches
+# ------------------------------------------------------------
+packages/
+.nuget/
+*.nupkg
+*.snupkg
+
+# Keep dependency lock/config files if present
+!packages.lock.json
+!NuGet.config
+
+# ------------------------------------------------------------
+# Local configuration / secrets
+# ------------------------------------------------------------
+.env
+.env.*
+!.env.example
+
+appsettings.Local.json
+appsettings.local.json
+appsettings.*.Local.json
+appsettings.*.local.json
+local.settings.json
+secrets.json
+secrets.*.json
+*.secrets.json
+
+# Certificates / signing keys
+*.pfx
+*.p12
+*.cer
+*.key
+*.pem
+
+# Local auth / token files
+credentials.json
+token.json
+tokens.json
+auth.json
+oauth.json
+
+# ------------------------------------------------------------
+# OS junk
+# ------------------------------------------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ------------------------------------------------------------
+# Misc caches
+# ------------------------------------------------------------
+.cache/
+.cache*
+tmp/
+temp/
+.cache-loader/
+node_modules/
+
+# Python helpers, if any
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ------------------------------------------------------------
+# Generated installer/package output only
+# (do NOT globally ignore .dll/.exe/.lib because third_party
+# may intentionally contain checked-in runtime dependencies)
+# ------------------------------------------------------------
+installer-output/
+installers/
+packages-output/
+*.msixupload
+*.appxsym
+*.appxupload
